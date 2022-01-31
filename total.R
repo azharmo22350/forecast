@@ -6,6 +6,8 @@ library(ggplot2)
 library(fpp2)
 library(writexl)
 
+klkmmkkjj
+
 datagen<- read.csv("C:/Users/azhar/Desktop/forecast/generationForecast.csv")
 genarationforecast<-ts(datagen$Point.Forecast,frequency=2*48)
 
